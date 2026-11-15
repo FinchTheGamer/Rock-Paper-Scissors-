@@ -34,6 +34,7 @@ scissors:
                     
 
 */
+//can't you save rock, paper, and scissors to variables?
 #include <bits/stdc++.h>
 #include <chrono>
 #include <iostream>
@@ -125,6 +126,8 @@ int main(){
     int key2;
     int key3;
     int computer;
+    //why is all of this declared in main?
+    //this could be a lot more object oriented
     loop1 = true;
     bool loop2 = false;
     while(loop1){
@@ -849,4 +852,5 @@ int main(){
     
     endwin();
 }
+//Oh my goodness graciousness did you do everything in main?
 
